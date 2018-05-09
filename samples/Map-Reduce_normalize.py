@@ -5,8 +5,6 @@ Created on Wed May  9 13:29:10 2018
 @author: 123456
 """
 
-from functools import reduce
-
 #利用map()函数，把用户输入的不规范的英文名字，变为首字母大写，其他小写的规范名字。
 def normalize(name):
     if len(name) == 0:
