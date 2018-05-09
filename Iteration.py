@@ -6,7 +6,9 @@ Created on Wed May  9 08:46:13 2018
 """
 #Iteration
 def findMinAndMax(L):
-    if len(L) == 0:
+    if len(L) == 0: 
+#此处先判断L是否为空，不能直接用L == None，否则会出现问题。如下：
+#当输出L = ['']时，会出现index超出问题。
         Max = None
         Min = None
         return (Max,Min)
