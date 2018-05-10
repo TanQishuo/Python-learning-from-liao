@@ -25,7 +25,7 @@ def removePoint(s):
                 return s[:i] + s[i+1:]
         return s
 
-digits = {'0':0, '1':1, '2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8,'9':9,'.':0}
+digits = {'0':0, '1':1, '2':2, '3':3, '4':4, '5':5, '6':6, '7':7, '8':8,'9':9}
 def str2float(s):
     b = findTimes(s)
     ss = removePoint(s)
